@@ -1,10 +1,15 @@
 # Omar Ayyash — Portfolio
 
-A responsive, dark editorial-style portfolio inspired by the supplied video reference. Built with plain HTML, CSS, and JavaScript.
+A responsive, dark portfolio inspired by the supplied Flowstate visual reference. Built with vanilla HTML, CSS, and JavaScript.
+
+## Files
+- `index.html` — page structure and content
+- `styles.css` — responsive styling, motion, and layout
+- `script.js` — animated background, scroll reveals, smooth scrolling, and project detail modals
+- `assets/omar-ayyash.jpg` — profile photo
 
 ## Run locally
-
-Open `index.html` in a browser, or run a local static server from this folder:
+Open `index.html` in a browser. For the best experience, run a local static server:
 
 ```bash
 python -m http.server 8000
@@ -12,16 +17,7 @@ python -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
-## Before publishing
+## Publish with GitHub Pages
+Upload the contents of this folder (not the parent folder) to the repository root. In repository Settings → Pages, select `Deploy from a branch`, branch `main`, folder `/ (root)`.
 
-- Confirm the course code and implementation language for the Appointment Booking System.
-- Add public certificate URLs/credential IDs when available. Course completion is not automatically the same as a verified issued certificate.
-- Add a professional email and LinkedIn URL if you want them displayed.
-- Review the MindCare AI contribution wording if you want a precise personal role listed.
-
-## Files
-
-- `index.html` — page content and sections
-- `styles.css` — visual design, responsive layout, animations
-- `script.js` — navigation, reveal animations, project filters
-- `assets/omar-ayyash.jpg` — supplied portrait
+The animated ink background is a lightweight canvas effect inspired by the reference, not the full Pavel Dobryakov WebGL fluid solver. Google Fonts and Lenis load from their public CDNs.
