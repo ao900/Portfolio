@@ -21,3 +21,7 @@ Then visit `http://localhost:8000`.
 Upload the contents of this folder (not the parent folder) to the repository root. In repository Settings → Pages, select `Deploy from a branch`, branch `main`, folder `/ (root)`.
 
 The animated ink background is a lightweight canvas effect inspired by the reference, not the full Pavel Dobryakov WebGL fluid solver. Google Fonts and Lenis load from their public CDNs.
+
+
+## Featured project case study
+Open `parent-training.html` for the detailed Virtual Reality & AI in Parent Training project page. It is linked from the MindCare AI project card on the homepage.
